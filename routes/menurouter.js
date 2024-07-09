@@ -7,7 +7,7 @@ router.post("/",async(req,res)=>{
         const menudetails=req.body //aswing data
         const newmenu= new MenuSchemaModal(menudetails);
         const response=await newmenu.save();
-        console.log("succfully menu items saved in the database...");
+        console.log("succfully menuItem items saved in the database...");
         res.status(200).json(response)
     }
       catch(err){

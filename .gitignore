@@ -1,3 +1,6 @@
 #ignore node_modules directry
 node_modules/
+
+# secret file
+.env/
 # other entries....

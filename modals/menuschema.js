@@ -1,6 +1,6 @@
 import mongoose  from "mongoose";
 const menuschema=mongoose.Schema({
-    //
+    //per
     name:{
         type:String,
         required:true,
